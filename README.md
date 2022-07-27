@@ -1,0 +1,385 @@
+## Course Information
+
+Section A:
+
+- Class Time: 2:00pm-3:15pm Tue Thu
+- Location: Berthoud Hall 108
+
+Section B:
+
+- Class Time: 3:30pm-4:45pm Tue Thu
+- Location: Marquez Hall 326
+
+
+## Instructors
+
+Section A: Amelia Read, Assistant Teaching Professor of CS
+
+- Contact: read (at) mines (dot) edu (monitored during business hours on school days)
+- Office Hours: Wed 11:15am-12pm, Thu 1:00pm-1:45pm, Fri 11:15am-12pm in CTLM 246D (Mon or Tue by arrangement)
+
+Section B: Sumner Evans, Adjunct Instructor
+
+- Contact: me (at) sumner (dot) com (mines email will have a slow response)
+- Office Hours: TBD
+
+## Teaching Assistants (TA)
+
+Julia Harvey
+
+- Contact: juliaharvey (at) mines (dot) edu
+
+Vincent Morgan
+
+- Contact: vmorgan (at) mines (dot) edu
+
+Jaren Peckham
+
+- Contact: jarenpeckham (at) mines (dot) edu
+
+Jacob Vossen
+
+- Contact: jvossen (at) mines (dot) edu
+
+Stephen Willson
+
+- Contact: swillson (at) mines (dot) edu
+
+TA office hours will be posted on Piazza.
+
+## Course Overview
+
+In previous courses, you have examined how to write programs in individual languages such as Java or C.
+In this class, we will take a broader view of programming languages, and study the key
+concepts and techniques that allow developers to *implement* languages such as Java or C.
+This will be a project-based course, and we will develop significant experience in this area,
+by learning how to use *functional programming* (specifically the OCaml language) to build
+(over the course of the semester) a working interpreter for a non-trivial subset of JavaScript.
+Ultimately, the course will improve your skill as a programmer, and will deepen your understanding
+of how programming languages are designed and implemented.
+
+That understanding will enable you to make better choices as a computer scientist, whether you are programming or designing systems or languages.
+
+## Course Outcomes
+
+Upon completion of this course, it is expected that you would be able to:
+
+* explain conventional terms of programming language theory such as lexical closure.
+* develop functional programs using idioms such as map-reduce.
+* implement the expression evaluation core of a programming language.
+* analyze trade-offs among programming approaches.
+* evaluate the suitability of programming approaches for new problems.
+* prove the amortized running time for a data structure or algorithm.
+
+## Prerequisites
+
+The prerequisites are [CSCI-306 Software Engineering](http://cs-courses.mines.edu/csci306/index.html) and [CSCI-358 Discrete Math](http://cs-courses.mines.edu/csci358/index.html). As long as you have some programming experience and basic mathematical knowledge, and are comfortable with GitHub, that should be sufficient. If you are in this class and have not completed both classes with a C or better, please contact your instructor immediately.
+
+## Be Prepared...
+
+This is a **difficult** class, for several reasons:
+1. We will take a **formal** approach to the topics, i.e., we will carefully develop the mathematical/logical underpinnings of programming languages design and implementation. You may not have seen this level of formality in any other CS class so far.
+2. The class is **project-based**, meaning you should expect to devote a significant portion of your effort for this class towards writing code.
+3. Virtually all of the code you write will be in a **functional programming language** like OCaml. This may be your first exposure to functional programming.
+4. Programming languages textbooks are often highly technical. We have tried to collect some of the most easily-digestible materials for your reference, but you may find it difficult to master the material without being actively engaged in the class. Class **attendance and participation are essential**.
+
+## Online Community and Communication
+
+**In Homework 1, you will be asked to introduce yourself to the instructor. This includes sending
+a passport-style photo of yourself to the instructor.
+The photo must be clear, with your face un-obstructed.**
+If you are not comfortable providing a photo, then you will need to contact the instructor to set up
+a brief Zoom meeting to introduce yourself.
+Failure to meet this requirement on Homework 1 will result in a 0 (zero) for the Participation component
+of the grade.
+
+We use [Piazza](https://piazza.com/) in the class for student questions and class communications.
+This is a great way to ask questions and communicate with the instructors, teaching assistants,
+and your classmates. Participation on Piazza will factor into the Participation component of your grade. Dive in and answer a peer's questions - explaining to others is a great way to deepen your own understanding!
+
+The class Piazza link is:
+[https://piazza.com/class/TBD](https://piazza.com/class/TBD)
+
+The instructors will use Piazza to communicate with the class. If you have
+questions about the course, you should first do a quick search of this syllabus and the Piazza page,
+to make sure your question has not already been answered. If not, please
+go ahead and post your question on Piazza so that the instructors, the TAs, or another student
+can answer it publicly. This will help to streamline communication.
+
+NOTE #1: **neither the instructors nor the TAs will debug your code for you!** If you are
+having difficulty with a certain piece of code, take the time to identify what specific
+operation(s) is causing unexpected behavior, and ask for help about that. In other words,
+posting/emailing your source code is not allowed, but asking questions about language
+features or generic code snippets is welcomed. See the CS@Mines Collaboration Policy for further information.
+
+NOTE #2: if you have a question you do not wish to publicize (e.g., about your
+grades, etc.), please create a "private post" on Piazza. This can be directed at just your instructor, or at all instructors and TAs. **Email should only
+be used in rare instances where use of Piazza would not be feasible.**
+
+All grade information will be on [Canvas](https://elearning.mines.edu/)  under our course Gradebook.
+
+Project code distribution will be on Github in our [CSCI 400 Organization](https://github.com/mines-csci400).
+
+isengard, a campus Linux server, can be used for code development (or you can run your own Ubuntu VM on your own device); note you will need to be on campus or using [ITS Remote Access](https://helpcenter.mines.edu/) to access isengard.
+
+
+## Textbook and Other Reading Materials
+
+NOTE: the following resources are *recommended*, but **NOT REQUIRED**. I will assign
+readings from these sources to supplement the lectures, but you are only responsible
+for the information presented in lecture.
+
+- [*Functional Programming in OCaml* by Clarkson et al.](https://www.cs.cornell.edu/courses/cs3110/2019fa/textbook/)
+
+Supplemental references (these delve deeper into some topics and provide alternate descriptions of the topics covered in class and the Clarkson text):
+
+– Chris Okasaki. Purely Functional Data Structures. Cambridge University Press. 1998. ISBN-13: 978-0521663502.
+– Chris Okasaki. Purely Functional Data Structures. Ph.D. Thesis. CMU-CS-96-177. Carnegie Mellon University. 1996. (A “draft” version of the above book)
+– Benjamin Pierce. Types and Programming Languages. 2002. ISBN-13: 978-0262162098 
+- [*The Semantics of Programming Languages* by Matthew Hennessy](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kspod4vo1g21ol)
+– Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman. Compilers: Principles, Techniques & Tools. ISBN-13: 978-0321486813.
+
+Programming References:
+
+- [OCaml Tutorial](https://ocaml.org/learn/tutorials)
+- [OCaml Manual](https://v2.ocaml.org/manual/index.html)
+- [JavaScript Specification](https://262.ecma-international.org/12.0/)
+- [Mozilla Developer Network: JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+
+## Technology Requirements
+
+This course assumes you ar able to access a Linux system (Debian or Ubuntu). isengard is available if your own system is not Linux or if you do not install a virtual machine. Note that Microsoft's WSL should not be used - past students have not had success, and that platform will not be supported by the instructors or TAs.
+Use of a non-Linux platform is also not supported.
+
+You are recommended to bring a device to class for coding, note-taking, and electronic communications. This device should be able to access a Linux system for coding and have a web browser for electronic communications. Please contact the instructor if bringing a device to class would present difficulty for you.
+
+## Class Notes
+
+Class notes will be posted 1-2 days after the lecture.
+**Posted notes are not guaranteed to provide all information discussed in lecture**
+(class attendance is required for this class - see the Warning).
+
+There is a Github organization for the class:
+[https://github.com/mines-csci400](https://github.com/mines-csci400)
+All of your individual/team repositories will show up there.
+
+
+## Grading and Evaluation
+
+The course score (percentage) will be computed as a weighted average of scores (points received over points possible) as follows:
+
+| item             | percentage    |
+| -----------------|---------------|
+| Participation    | 10%           |
+| Labs             | 50%           |
+| Homeworks        | 10%           |
+| Midterm Exam     | 15%           |
+| Final Exam       | 15%           |
+
+### Participation 
+
+Participation is a *qualitative* score based on your exhibited effort across worksheets, piazza, and in class.
+
+During most lectures, you will have a worksheet to practice the material. After the lecture is complete (i.e., we finish the set of slides corresponding to the worksheet), your worksheet will be submitted at the start of the next class. Late worksheets will not be accepted, electronic submissions will not be accepted, and office hours cannot be used to submit worksheets - class attendance is expected.
+
+### Exams 
+
+There will be a midterm exam around the middle of the semester and a cumulative exam during finals week. The exams are an evaluation tool whose purpose is to produce a distribution of scores across all students that best distinguishes the extent of learning. Thus, please expect the exams to be very challenging.
+
+### Homeworks 
+
+There will be several homeworks sets. 
+
+### Labs
+
+There will be several programming labs in a functional language. These increase in difficulty and build upon one another, so do not skip one. They will be worked on in groups to facilitate supporting one another, but each group member will want to understand the full project for the best results on exams.
+
+## Letter Grades 
+
+Letter grades will initially be calculated based on the following intervals:
+
+| range    | grade |
+|----------|--------------|
+| [93,100] | A |
+| [90,93)  | A- |
+| [87,90)  | B+ |
+| [83,87)  | B |
+| [80,83)  | B- |
+| [77,80)  | C+ |
+| [73,77)  | C |
+| [70,73)  | C- |
+| [67,70)  | D+ |
+| [63,67)  | D |
+| [60,63)  | D- |
+| [0,60)   | F            |
+
+We will *not* perform any rounding on the scores (e.g., a score of 92.999 will not be rounded up to 93).
+If warranted, the scale may be expanded or normalized to correspond to university and department norms.
+However, skewed student effort may result in correspondingly skewed letter distributions.
+
+
+## Late Policy 
+
+Late policy: except for worksheets, late submissions are accepted up to 5 days after the deadline, with a penalty of -20% per day applied. Worksheets are not accepted late.
+
+Please take care to manage your time so that you are able to submit your best work by the deadline.
+It is import to evaluate all students as evenly as possible. While we will attempt to accommodate disabilities and extenuating circumstances (physical/mental health, school-related travel, and similar) to the greatest possible extend, it would be unfair to offer any further special treatment.
+
+To have late lab code accepted, notify your instructor concerning which GitHub commit is to be graded.
+
+For all items, resubmissions will not be accepted once the due date has passed or a grade has been assigned.
+
+## Grading Corrections 
+
+Grading changes will only be made for grading errors. It is not possible to change grades in response to disagreements about point allocation, partial credit, letter grade cutoffs, etc., because such changes would be unfair to the rest of the class. Grading corrections will only be made for the following errors:
+
+1. _Arithmetic_: The grader incorrectly summed your points. 
+2. _Code_: An error in the grading environment or scripts incorrectly tested your code. 
+3. _Written_: The grader incorrectly understood your answer.
+
+## Lab Expectations and Grading 
+* Labs will include a coding portion and a report portion.
+* Code will be graded objectively. Code must produce the correct output to receive credit. Incorrect output, no output, compilation errors, or runtime errors will not receive credit. 
+* **Please double-check your submitted code to ensure that minor errors will not result in major test failures.** resubmissions will not be accepted once due dates have passed.
+* Code tests will include edge cases. You are responsible for testing your code; we will not supply all the test cases used to grade your code. Think through all possible conditions for your program. 
+* Report grading will evaluate your overall understanding for the project area.
+
+See Lab Topics below for more information.
+
+## Written Work 
+
+Format and submit your written work as follows. Improper submission or formatting may result in a penalty on assignments.
+
+* For FERPA compliance, all graded work submitted on physical paper must include a cover sheet
+on all written work that contains only your name and no answers or other work. Electronic submissions do not need a cover sheet.
+* Write your name on every page of all written work. If the work cannot be matched to you, you cannot receive credit for it.
+* Include page numbers and total page count in written reports to ensure pages are properly ordered and no pages are overlooked.
+* Handwritten work must be _clearly legible_ to receive credit.
+* Submit electronic written work in PDF format. Do not submit word processor files because these are inconsistently formatted by different software.
+* Lab code will be submitted as code in GitHub. We will not look at work submitted after the cut-off unless a late submission is explicitly requested (see the Late Policy) and the commit to grade identified.
+* Work must be readable when printed in black and white. 
+
+
+## Collaboration
+
+We will use GitHub for submitting code. We will use private individual and team-specific
+repositories to submit assignments. Your repositories will show up here:
+[https://github.com/mines-csci400](https://github.com/mines-csci400)
+
+The following collaboration guidelines are provided:
+
+* Worksheets may be discussed with others in the class, and work compared. Worksheets allow open collaboration.
+* Homeworks are individual - you may not copy or share any part of a solution. However, per the CS collaboration policy, you may consult others under the "empty hands" requirement.
+* Labs are a group effort within your group and expect active collaboration within the group. Per the CS collaboration policy, you may consult others under the "empty hands" requirement. Copying any amount of code is considered academic misconduct, as is intentionally modifying copied code.
+* Exams are an individual effort. Copying any part of a solution or consulting classmates on an exam is considered academic misconduct.
+
+Please review the full text of the CS@Mines Collaboration Policy for citation requirements when collaboration is used in an assignment (including "empty hands" collaboration).
+
+## Respectfulness and Academic Honesty
+
+Every student is expected to show respect to the instructors and the rest of the class. This course is preparation
+for your future career, so make sure you are behaving with the same level of professionalism that
+would be expected at a future full-time position. The general rule of thumb is:
+**_informal_ is okay, but _disrespectful_ is not**.
+
+- The instructors prefers to be addressed by "Prof. Read"/"Amelia" and "Sumner".
+- It is vital that you do your best to participate in the class, and communicate with the instructor(s) about any course-related difficulties you are facing.
+
+Plagiarism/cheating is NOT acceptable, and will be met with the maximum available penalty.
+Sophisticated plagiarism-detection software may be used on every submitted assignment, and
+all confirmed instances of cheating will be immediately reported to the Computer Science department.
+Please ensure that you do not engage in or facilitate academic dishonesty in this class!
+
+Please see the CS@Mines Collaboration Policy concerning what is considered plagiarism in code development work - be sure to use the empty hands policy on any discussion held with others concerning CSCI 400 assignments to avoid any plagiarism issues.
+
+## Accommodation
+
+The Colorado School of Mines is committed to ensuring the full participation of all students in its programs, including students with disabilities. If you anticipate or experience any barriers to learning in this course, please feel welcome to discuss your concerns with me. Students with disabilities may also wish to contact Disability Support Services (DSS) to discuss options to removing barriers in this course, including how to register and request official accommodations. Please visit their website at [https://disabilities.mines.edu](https://disabilities.mines.edu) for contact and additional information.  If you have already been approved for accommodations through DSS, please meet with me at your earliest convenience so we can discuss your needs in this course.
+
+## Schedule
+
+This schedule is tentative, and is subject to change. Deadlines are at 11:59pm (Mountain Time) on the corresponding date.
+
+NOT YET UPDATED FOR FALL 2022
+
+| week | date   | topic                                                                | lecture                                             | notes                                                                                                                                                      | supplemental reading                                                                                                                                                                                                                                                              | homework                                                                                                                         | lab                                                                      |
+|------|--------|----------------------------------------------------------------------|-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| 1    | Aug 23 | PL and functional programming                                        | course intro, overview                              | [lecture01](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kspmy1r7lim5r9)                                                                   |                                                                                                                                                                                                                                                                                   | [hw 1](https://docs.google.com/forms/d/e/1FAIpQLSdCurXOwDUz9Ob5DeFW9DAxsj8ZAvgtAqCBlw_wyZofV56APg/viewform?usp=sf_link) assigned |                                                                          |
+|      | Aug 25 | PL and functional programming                                        | PL building blocks, JavaScript intro                | [lecture02](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kssedcos24s5fd)                                                                   | [JavaScript Standard](https://www.ecma-international.org/ecma-262/10.0/index.html), Semantics of PL ch 1.1, 2.1-2.3                                                                                                                                                               | [hw 1](https://docs.google.com/forms/d/e/1FAIpQLSdCurXOwDUz9Ob5DeFW9DAxsj8ZAvgtAqCBlw_wyZofV56APg/viewform?usp=sf_link) due      |                                                                          |
+| 2    | Aug 31 | PL and functional programming                                        | functional programming (simple functional language) | [lecture03](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kszhjg7vdx039n)                                                                   | Semantics of PL ch 3                                                                                                                                                                                                                                                              |                                                                                                                                  |                                                                          |
+|      | Sep 2  | PL and functional programming                                        | crash course on Linux, OCaml, OPAM, Git             | [lecture04](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kt2btxjnfxk5sm), [VM/Linux Tutorial](https://www.youtube.com/watch?v=qs5hjKV7-oA) | [OCaml Online REPL](https://try.ocamlpro.com/), [Git Cheat Sheet](http://www.marcelofossrj.com/reference%20card/2017/07/26/git-reference.html) , [OCaml Exercises](https://ocaml.org/learn/tutorials/99problems.html)                                                             |                                                                                                                                  |                                                                          |
+| 3    | Sep 7  | PL and functional programming                                        | crash course on Linux, OCaml, OPAM, Git             | [lecture05](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kt9ir9e294l4dp), [OCaml Tutorial](https://www.youtube.com/watch?v=KeXhPleFeT4)    | [Learn OCaml](https://ocaml.org/learn/), [OCaml Spec](https://caml.inria.fr/pub/docs/manual-ocaml/language.html), [Ocaml Module Reference](https://caml.inria.fr/pub/docs/manual-ocaml/libref/index.html)                                                                         | [hw 2](https://github.com/mines-csci400/f21a-assignment-hw02) assigned                                                           |                                                                          |
+|      | Sep 9  | expressions and evaluation                                           | algebraic data types (ADTs), pattern matching       | [lecture06](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/ktcb03txuer1tb)                                                                   | [Data Types](https://www.cs.cornell.edu/courses/cs3110/2019fa/textbook/data/intro.html)                                                                                                                                                                                           |                                                                                                                                  |                                                                          |
+| 4    | Sep 14 | *no class ([career day](https://www.mines.edu/careers/career-day/))* |                                                     |                                                                                                                                                            |                                                                                                                                                                                                                                                                                   |                                                                                                                                  | [lab 1](https://github.com/mines-csci400/f21a-assignment-lab01) assigned |
+|      | Sep 16 | expressions and evaluation                                           | algebraic data types (ADTs), pattern matching       | [lecture07](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/ktmb4y1ze573xj)                                                                   | [Data Types](https://www.cs.cornell.edu/courses/cs3110/2019fa/textbook/data/intro.html)                                                                                                                                                                                           | [hw 2](https://github.com/mines-csci400/f21a-assignment-hw02) due                                                                |                                                                          |
+| 5    | Sep 21 | expressions and evaluation                                           | syntax, grammars                                    | [lecture08](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/ktt3jn5n3m84h8)                                                                   | Semantics of PL ch 1.2                                                                                                                                                                                                                                                            | [hw 3](https://github.com/mines-csci400/f21a-assignment-hw03) assigned                                                           |                                                                          |
+|      | Sep 23 | syntax and semantics                                                 | lexing, parsing                                     | [lecture09](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kttglc73jucq5)                                                                    | [Lexing](https://courses.cs.washington.edu/courses/cse401/04sp/slides/02-lexing.pdf), [Parsing](https://courses.cs.washington.edu/courses/cse401/04sp/slides/03-parsing.pdf), [Lexing & Parsing](https://www.cs.cornell.edu/courses/cs3110/2019fa/textbook/interp/lex_parse.html) |                                                                                                                                  | [lab 1](https://github.com/mines-csci400/f21a-assignment-lab01) due      |
+| 6    | Sep 28 | syntax and semantics                                                 | OCaml parser generators                             | [lecture10](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/ktvn55bxrbc2wu)                                                                   | [Ocaml Parser Generators](https://caml.inria.fr/pub/docs/manual-ocaml/lexyacc.html)                                                                                                                                                                                               |                                                                                                                                  | [lab 2](https://github.com/mines-csci400/f21a-assignment-lab02) assigned |
+|      | Sep 30 | syntax and semantics                                                 | induction and recursion                             | [lecture11](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/ktvn5g7qxc9448)                                                                   | Semantics of PL ch 1.3                                                                                                                                                                                                                                                            | [hw 3](https://github.com/mines-csci400/f21a-assignment-hw03) due                                                                |                                                                          |
+| 7    | Oct 5  | syntax and semantics                                                 | inductive definitions, structural induction         | [lecture12](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kugc0o2wn1037v)                                                                   | Semantics of PL ch 1.4-1.5                                                                                                                                                                                                                                                        | [hw 4](https://github.com/mines-csci400/f21a-assignment-hw04) assigned                                                           |                                                                          |
+|      | Oct 7  | syntax and semantics                                                 | big-step operational semantics                      | [lecture13](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kugc0qyeyqm3ox)                                                                   | [Environment Model](https://www.cs.cornell.edu/courses/cs3110/2019fa/textbook/interp/env_model.html), Semantics of PL ch 4                                                                                                                                                        |                                                                                                                                  | [lab 2](https://github.com/mines-csci400/f21a-assignment-lab02) due      |
+| 8    | Oct 12 |                                                                      | (exam review)                                       | [lecture14](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kunlcf2csq474a)                                                                   |                                                                                                                                                                                                                                                                                   |                                                                                                                                  | [lab 3](https://github.com/mines-csci400/f21a-assignment-lab03) assigned |
+|      | Oct 14 | **midterm**                                                          |                                                     |                                                                                                                                                            |                                                                                                                                                                                                                                                                                   | [hw 4](https://github.com/mines-csci400/f21a-assignment-hw04) due                                                                |                                                                          |
+| 9    | Oct 19 | *no class (holiday)*                                                 |                                                     |                                                                                                                                                            |                                                                                                                                                                                                                                                                                   |                                                                                                                                  |                                                                          |
+|      | Oct 21 | *no class*                                                           |                                                     |                                                                                                                                                            |                                                                                                                                                                                                                                                                                   |                                                                                                                                  |                                                                          |
+| 10   | Oct 26 | higher-order functions                                               | recursive higher-order functions                    | [lecture15](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kv7kb0asr26i9)                                                                                                                                             | [Higher-order Programming](https://www.cs.cornell.edu/courses/cs3110/2019fa/textbook/hop/intro.html), [Evaluating Lambdas](https://www.cs.cornell.edu/courses/cs3110/2019fa/textbook/interp/lambda_env_model.html)                                                                | [hw 5](https://github.com/mines-csci400/f21a-assignment-hw05) assigned                                                           |       |
+|      | Oct 28 | higher-order functions                                               | static/dynamic scoping                              | [lecture16](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kvakf826e25367)                                                                                                                                             | [Evaluating Lambdas](https://www.cs.cornell.edu/courses/cs3110/2019fa/textbook/interp/lambda_env_model.html)                                                                                                                                                                      |                                                                                                                                  | [lab 3](https://github.com/mines-csci400/f21a-assignment-lab03) due, [lab 4](https://github.com/mines-csci400/f21a-assignment-lab04) assigned |
+| 11   | Nov 2  | higher-order functions                                               | closures                                            | [lecture17](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kvhlajwbtuj2xd)                                                                                                                                             | [Implementing Closures](https://www.cs.cornell.edu/courses/cs3110/2019fa/textbook/interp/lambda_env_model.html)                                                                                                                                                                   |                                                                                                                                  |                                                                          |
+|      | Nov 4  | higher-order functions                                               | OCaml standard libraries                            | [lecture18](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kvkf05gcds67cf)                                                                                                                                             | [JavaScript Data Types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures), [JavaScript Type Conversions](https://www.w3schools.com/js/js_type_conversion.asp)                                                                                              | [hw 5](https://github.com/mines-csci400/f21a-assignment-hw05) due                                                                |                                                                          |
+| 12   | Nov 9  | higher-order functions                                               | small-step operational semantics                    | [lecture19](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kvpthw0a10m5uo)                                                                                                                                             | [Type Checking](https://www.cs.cornell.edu/courses/cs3110/2019fa/textbook/interp/typecheck.html)                                                                                                                                                                                  | [hw 6](https://github.com/mines-csci400/f21a-assignment-hw06) assigned                                                           | [lab 4](https://github.com/mines-csci400/f21a-assignment-lab04) due      |
+|      | Nov 11 | type checking                                                        | static/dynamic typing                               | [lecture20](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kvuez53d6244jc)                                                                                                                                             | [Hindley-Milner](https://www.cs.cornell.edu/courses/cs3110/2019fa/textbook/interp/inference.html)                                                                                                                                                                                 |                                                                                                                                  | [lab 5](https://github.com/mines-csci400/f21a-assignment-lab05) assigned |
+| 13   | Nov 16 | *no class (video lecture)*                                                        | type inference                                      | [lecture21](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kvyif1lduc027x)                                                                                                                                             | Semantics of PL ch 5.1-5.2                                                                                                                                                                                                                                                        |                                                                                                                                  |                                                                          |
+|      | Nov 18 | mutable variables and objects                                        | objects/references                                  | [lecture22](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kw4gzzml19h6k5)                                                                                                                                             | Semantics of PL ch 5.3                                                                                                                                                                                                                                                            | [hw 6](https://github.com/mines-csci400/f21a-assignment-hw06) due                                                                |                                                                          |
+| 14   | Nov 23 | *no class*                                                           |                                                     |                                                                                                                                                            |                                                                                                                                                                                                                                                                                   | [hw 7](https://github.com/mines-csci400/f21a-assignment-hw07) assigned                                                           |       |
+|      | Nov 25 | *no class (holiday)*                                                 |                                                     |                                                                                                                                                            |                                                                                                                                                                                                                                                                                   |                                                                                                                                  | [lab 6](https://github.com/mines-csci400/f21a-assignment-lab06) assigned |
+| 15   | Nov 30 | mutable variables and objects                                        | garbage collection                                  | [lecture23](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kwlmj3fpg39346)                                                                                                                                             | [Mutability](https://www.cs.cornell.edu/courses/cs3110/2019fa/textbook/mut/intro.html)                                                                                                                                                                                            |                                                                                                                                  |                                                                          |
+|      | Dec 2  | advanced topics                                                      |                                                     | [lecture24](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kwpdtbpuh2b5iu)                                                                                                                                             | [Mutable Fields](https://www.cs.cornell.edu/courses/cs3110/2019fa/textbook/mut/mutable_fields.html)                                                                                                                                                                               | [hw 7](https://github.com/mines-csci400/f21a-assignment-hw07) due                                                                | [lab 5](https://github.com/mines-csci400/f21a-assignment-lab05) due                                                                         |
+| 16   | Dec 7  |                                                                      | (exam review)                                       | [lecture25](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kwx1r7ozo7535o)                                                                                                                                             | [Currying](https://www.cs.cornell.edu/courses/cs3110/2019fa/textbook/hop/currying.html)                                                                                                                                                                                           |                                                                                                                                  |       |
+|      | Dec 9  | *no class (study for finals)*                                        |                                                     |                                                                                                                                                            |                                                                                                                                                                                                                                                                                   |                                                                                                                                  |                                                                          |
+| 17   | Dec 14 | *no class (final exam week)*                                         |                                                     |                                                                                                                                                            |                                                                                                                                                                                                                                                                                   |                                                                                                                                  |                                                                          |
+|      | Dec 16 | *no class (final exam week)*                                         |                                                     |                                                                                                                                                            |                                                                                                                                                                                                                                                                                   |                                                                                                                                  | [lab 6](https://github.com/mines-csci400/f21a-assignment-lab06) due                                                                         |
+
+## Lab Topics
+
+There will be 6 labs. Lab 1 will be individual, and Labs 2-6 will be completed in groups of 2-3 students.
+You will have approximately **2 weeks** to work on each lab.
+The labs build on each other, and lab solutions will NOT be provided, meaning you will need to pay
+special attention to building a collection of **test cases**, to ensure that bugs in
+earlier lab submissions do not propagate into later labs.
+
+You will be given several test cases to check basic code functionality, but **you are responsible
+for adding sufficient test cases to ensure that all corner cases have been covered**.
+In most cases, you will also be able to use a "black-box" implementation such as the Node.js JavaScript
+interpreter to compare with your implementation's behavior.
+Buggy behavior will be identified by our own comprehensive set of test cases, and will result in lost points.
+Programs which fail to compile will result in a 0 (zero) for the assignment -- no exceptions!
+**You are responsible for ensuring that your code is properly submitted and properly compiling
+using the toolchain discussed in class**.
+
+- [Lab 1: Learning OCaml](https://github.com/mines-csci400/f21a-assignment-lab01)
+- [Lab 2: Expression evaluation](https://github.com/mines-csci400/f21a-assignment-lab02)
+- [Lab 3: Basic JavaScript interpreter](https://github.com/mines-csci400/f21a-assignment-lab03)
+- [Lab 4: Implementing recursive higher-order functions](https://github.com/mines-csci400/f21a-assignment-lab04)
+- [Lab 5: Closures, type checking](https://github.com/mines-csci400/f21a-assignment-lab05)
+- [Lab 6: Objects, mutable variables](https://github.com/mines-csci400/f21a-assignment-lab06)
+
+
+## Homework
+
+There will be approximately 7 homeworks, which will be completed individually.
+These are designed to help encourage you to keep up-to-date on the course material.
+You will have approximately **2 weeks** to work on each homework.
+
+- [Homework 1: Course preliminaries](https://docs.google.com/forms/d/e/1FAIpQLSdCurXOwDUz9Ob5DeFW9DAxsj8ZAvgtAqCBlw_wyZofV56APg/viewform?usp=sf_link)
+- [Homework 2: Scala preliminaries](https://github.com/mines-csci400/f21a-assignment-hw02)
+- [Homework 3: Lexing & Parsing](https://github.com/mines-csci400/f21a-assignment-hw03)
+- [Homework 4: Structural induction](https://github.com/mines-csci400/f21a-assignment-hw04)
+- [Homework 5: Big-step semantics](https://github.com/mines-csci400/f21a-assignment-hw05)
+- [Homework 6: Recursive functions](https://github.com/mines-csci400/f21a-assignment-hw06)
+- [Homework 7: Type inference](https://github.com/mines-csci400/f21a-assignment-hw07)
+
+## Acknowledgements
+
+This course is inspired by [Bor-Yuh Evan Chang](http://www.cs.colorado.edu/~bec/)'s fantastic Programming Languages course.
+Special thanks to Evan for his advice and assistance.
