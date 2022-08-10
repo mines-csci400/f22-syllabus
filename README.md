@@ -37,10 +37,6 @@ Jaren Peckham
 
 - Contact: jarenpeckham (at) mines (dot) edu
 
-Jacob Vossen
-
-- Contact: jvossen (at) mines (dot) edu
-
 Stephen Willson
 
 - Contact: swillson (at) mines (dot) edu
