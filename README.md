@@ -179,7 +179,7 @@ There will be a midterm exam around the middle of the semester and a cumulative 
 
 There are 7 homeworks, which will be completed individually.
 These are designed to help encourage you to keep up-to-date on the course material.
-You will have approximately **2 weeks** to work on each homework.
+You will have approximately **1-2 weeks** to work on each homework.
 
 - [Homework 1: Github username](https://elearning.mines.edu/courses/40213/quizzes/60029)
 - [Homework 2: Scala preliminaries](https://github.com/mines-csci400/f22-assignment-hw02)
@@ -193,7 +193,7 @@ You will have approximately **2 weeks** to work on each homework.
 
 There will be six labs, programming in OCaml. Lab 1 is completed individually, and Labs 2-6 are completed in groups of 2-3 students. These are worked on in groups to facilitate supporting one another, but each group member will want to understand the full project for the best results on exams.
 
-You will have approximately **2 weeks** to work on each lab.
+You will have approximately **1-2 weeks** to work on each lab. This time overlaps with homeworks, be sure to plan accordingly.
 The labs increase in difficulty and build upon prior labs, and lab solutions will NOT be provided, meaning you will need to pay
 special attention to building a collection of **test cases**, to ensure that bugs in
 earlier lab submissions do not propagate into later labs.
