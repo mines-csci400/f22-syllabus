@@ -123,7 +123,7 @@ Supplemental references (these delve deeper into some topics and provide alterna
 - Chris Okasaki. Purely Functional Data Structures. Ph.D. Thesis. CMU-CS-96-177. Carnegie Mellon University. 1996. (A “draft” version of the above book)
 - Erik Meijer and Peter Drayton. Static Typing Where Possible, Dynamic Typing When Needed: The End of the Cold War Between Programming Languages
 - Robert Trajan. Amortized Computational Complexity. SIAM J. on Algebraic Discrete Methods. Vol 6, No 2, April 1985.
-– Benjamin Pierce. Types and Programming Languages. 2002. ISBN-13: 978-0262162098 
+- Benjamin Pierce. Types and Programming Languages. 2002. ISBN-13: 978-0262162098 
 - *The Semantics of Programming Languages* by Matthew Hennessy
 - Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman. Compilers: Principles, Techniques & Tools. ISBN-13: 978-0321486813.
 
