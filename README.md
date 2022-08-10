@@ -175,11 +175,42 @@ There will be a midterm exam around the middle of the semester and a cumulative 
 
 ### Homeworks 
 
-There will be several homeworks sets. 
+There are 7 homeworks, which will be completed individually.
+These are designed to help encourage you to keep up-to-date on the course material.
+You will have approximately **2 weeks** to work on each homework.
+
+- [Homework 1: Github username](https://elearning.mines.edu/courses/40213/quizzes/60029)
+- [Homework 2: Scala preliminaries](https://github.com/mines-csci400/f22-assignment-hw02)
+- [Homework 3: Lexing & Parsing](https://github.com/mines-csci400/f22-assignment-hw03)
+- [Homework 4: Structural induction](https://github.com/mines-csci400/f22-assignment-hw04)
+- [Homework 5: Big-step semantics](https://github.com/mines-csci400/f22-assignment-hw05)
+- [Homework 6: Recursive functions](https://github.com/mines-csci400/f22-assignment-hw06)
+- [Homework 7: Type inference](https://github.com/mines-csci400/f22-assignment-hw07)
 
 ### Labs
 
-There will be several programming labs in a functional language. These increase in difficulty and build upon one another, so do not skip one. They will be worked on in groups to facilitate supporting one another, but each group member will want to understand the full project for the best results on exams.
+There will be six labs, programming in OCaml. Lab 1 is completed individually, and Labs 2-6 are completed in groups of 2-3 students. These are worked on in groups to facilitate supporting one another, but each group member will want to understand the full project for the best results on exams.
+
+You will have approximately **2 weeks** to work on each lab.
+The labs increase in difficulty and build upon prior labs, and lab solutions will NOT be provided, meaning you will need to pay
+special attention to building a collection of **test cases**, to ensure that bugs in
+earlier lab submissions do not propagate into later labs.
+
+You will be given several test cases to check basic code functionality, but **you are responsible
+for adding sufficient test cases to ensure that all corner cases have been covered**.
+In most cases, you will also be able to use a "black-box" implementation such as the Node.js JavaScript
+interpreter to compare with your implementation's behavior.
+Buggy behavior will be identified by our own comprehensive set of test cases, and will result in lost points.
+Programs which fail to compile will result in a 0 (zero) for the assignment -- no exceptions!
+**You are responsible for ensuring that your code is properly submitted and properly compiling
+using the toolchain discussed in class**.
+
+- [Lab 1: Learning OCaml](https://github.com/mines-csci400/f22-assignment-lab01)
+- [Lab 2: Expression evaluation](https://github.com/mines-csci400/f22-assignment-lab02)
+- [Lab 3: Basic JavaScript interpreter](https://github.com/mines-csci400/f22-assignment-lab03)
+- [Lab 4: Implementing recursive higher-order functions](https://github.com/mines-csci400/f22-assignment-lab04)
+- [Lab 5: Closures, type checking](https://github.com/mines-csci400/f22-assignment-lab05)
+- [Lab 6: Objects, mutable variables](https://github.com/mines-csci400/f22-assignment-lab06)
 
 ## Letter Grades 
 
@@ -225,13 +256,13 @@ Grading changes will only be made for grading errors. It is not possible to chan
 3. _Written_: The grader incorrectly understood your answer.
 
 ## Lab Expectations and Grading 
+
 * Labs will include a coding portion and a report portion.
 * Code will be graded objectively. Code must produce the correct output to receive credit. Incorrect output, no output, compilation errors, or runtime errors will not receive credit. 
 * **Please double-check your submitted code to ensure that minor errors will not result in major test failures.** resubmissions will not be accepted once due dates have passed.
 * Code tests will include edge cases. You are responsible for testing your code; we will not supply all the test cases used to grade your code. Think through all possible conditions for your program. 
 * Report grading will evaluate your overall understanding for the project area.
 
-See Lab Topics below for more information.
 
 ## Written Work 
 
@@ -285,46 +316,8 @@ The Colorado School of Mines is committed to ensuring the full participation of 
 
 ## Schedule
 
-The course schedule is maintained on Canvas and is subject to change.  There will be 6 labs and 7 homeworks, as well as a midterm and a final exam.
+The course schedule is maintained on Canvas and is subject to change.  There will be 6 labs and 7 homeworks, as well as a midterm and a final exam. Lab and Homework due dates are interspersed through the course; pay attention to due dates to ensure you do not miss submitting a lab or a homework on time.
 
-## Lab Topics
-
-There will be 6 labs. Lab 1 will be individual, and Labs 2-6 will be completed in groups of 2-3 students.
-You will have approximately **2 weeks** to work on each lab.
-The labs build on each other, and lab solutions will NOT be provided, meaning you will need to pay
-special attention to building a collection of **test cases**, to ensure that bugs in
-earlier lab submissions do not propagate into later labs.
-
-You will be given several test cases to check basic code functionality, but **you are responsible
-for adding sufficient test cases to ensure that all corner cases have been covered**.
-In most cases, you will also be able to use a "black-box" implementation such as the Node.js JavaScript
-interpreter to compare with your implementation's behavior.
-Buggy behavior will be identified by our own comprehensive set of test cases, and will result in lost points.
-Programs which fail to compile will result in a 0 (zero) for the assignment -- no exceptions!
-**You are responsible for ensuring that your code is properly submitted and properly compiling
-using the toolchain discussed in class**.
-
-- [Lab 1: Learning OCaml](https://github.com/mines-csci400/f22-assignment-lab01)
-- [Lab 2: Expression evaluation](https://github.com/mines-csci400/f22-assignment-lab02)
-- [Lab 3: Basic JavaScript interpreter](https://github.com/mines-csci400/f22-assignment-lab03)
-- [Lab 4: Implementing recursive higher-order functions](https://github.com/mines-csci400/f22-assignment-lab04)
-- [Lab 5: Closures, type checking](https://github.com/mines-csci400/f22-assignment-lab05)
-- [Lab 6: Objects, mutable variables](https://github.com/mines-csci400/f22-assignment-lab06)
-
-
-## Homework
-
-There will be approximately 7 homeworks, which will be completed individually.
-These are designed to help encourage you to keep up-to-date on the course material.
-You will have approximately **2 weeks** to work on each homework.
-
-- [Homework 1: Github username](https://elearning.mines.edu/courses/40213/quizzes/60029)
-- [Homework 2: Scala preliminaries](https://github.com/mines-csci400/f22-assignment-hw02)
-- [Homework 3: Lexing & Parsing](https://github.com/mines-csci400/f22-assignment-hw03)
-- [Homework 4: Structural induction](https://github.com/mines-csci400/f22-assignment-hw04)
-- [Homework 5: Big-step semantics](https://github.com/mines-csci400/f22-assignment-hw05)
-- [Homework 6: Recursive functions](https://github.com/mines-csci400/f22-assignment-hw06)
-- [Homework 7: Type inference](https://github.com/mines-csci400/f22-assignment-hw07)
 
 ## Acknowledgements
 
