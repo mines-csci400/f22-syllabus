@@ -122,7 +122,7 @@ Supplemental references (these delve deeper into some topics and provide alterna
 – Chris Okasaki. Purely Functional Data Structures. Cambridge University Press. 1998. ISBN-13: 978-0521663502.
 – Chris Okasaki. Purely Functional Data Structures. Ph.D. Thesis. CMU-CS-96-177. Carnegie Mellon University. 1996. (A “draft” version of the above book)
 – Benjamin Pierce. Types and Programming Languages. 2002. ISBN-13: 978-0262162098 
-- [*The Semantics of Programming Languages* by Matthew Hennessy](https://piazza.com/class_profile/get_resource/ksp8kjp7orn3s4/kspod4vo1g21ol)
+- [*The Semantics of Programming Languages* by Matthew Hennessy](https:///)
 – Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman. Compilers: Principles, Techniques & Tools. ISBN-13: 978-0321486813.
 
 Programming References:
@@ -165,7 +165,7 @@ The course score (percentage) will be computed as a weighted average of scores (
 
 ### Participation 
 
-Participation is a *qualitative* score based on your exhibited effort across worksheets, piazza, and in class.
+Participation is a *qualitative* score based on your exhibited effort across worksheets, the class online discussion forum, and in class.
 
 During most lectures, you will have a worksheet to practice the material. After the lecture is complete (i.e., we finish the set of slides corresponding to the worksheet), your worksheet will be submitted at the start of the next class. Late worksheets will not be accepted, electronic submissions will not be accepted, and office hours cannot be used to submit worksheets - class attendance is expected.
 
