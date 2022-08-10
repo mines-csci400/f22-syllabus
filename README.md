@@ -41,7 +41,7 @@ Stephen Willson
 
 - Contact: swillson (at) mines (dot) edu
 
-TA office hours will be posted on Piazza.
+TA office hours will be posted.
 
 ## Course Overview
 
@@ -80,17 +80,17 @@ This is a **difficult** class, for several reasons:
 
 ## Online Community and Communication
 
-We use [TBD](https:///) in the class for student questions and class communications.
+We use [TBD](https:///) as the class online discussion forum for student questions and class communications.
 This is a great way to ask questions and communicate with the instructors, teaching assistants,
-and your classmates. Participation on Piazza will factor into the Participation component of your grade. Dive in and answer a peer's questions - explaining to others is a great way to deepen your own understanding!
+and your classmates. Participation in online discussions will factor into the Participation component of your grade. Dive in and answer a peer's questions - explaining to others is a great way to deepen your own understanding!
 
 The class TBD link is:
 [https://eddiscussion/class/TBD](https:///TBD)
 
 The instructors will use TBD to communicate with the class. If you have
-questions about the course, you should first do a quick search of this syllabus and the Piazza page,
+questions about the course, you should first do a quick search of this syllabus and the class online discussion forum,
 to make sure your question has not already been answered. If not, please
-go ahead and post your question on Piazza so that the instructors, the TAs, or another student
+go ahead and post your question on the class online discussion forum so that the instructors, the TAs, or another student
 can answer it publicly. This will help to streamline communication.
 
 NOTE #1: **neither the instructors nor the TAs will debug your code for you!** If you are
@@ -100,8 +100,8 @@ posting/emailing your source code is not allowed, but asking questions about lan
 features or generic code snippets is welcomed. See the CS@Mines Collaboration Policy for further information.
 
 NOTE #2: if you have a question you do not wish to publicize (e.g., about your
-grades, etc.), please create a "private post" on Piazza. This can be directed at just your instructor, or at all instructors and TAs. **Email should only
-be used in rare instances where use of Piazza would not be feasible.**
+grades, etc.), please create a "private post" on the class online discussion forum. This can be directed at just your instructor, or at all instructors and TAs. **Email should only
+be used in rare instances where use of the class online discussion forum would not be feasible.**
 
 All grade information will be on [Canvas](https://elearning.mines.edu/)  under our course Gradebook.
 
@@ -329,4 +329,4 @@ You will have approximately **2 weeks** to work on each homework.
 ## Acknowledgements
 
 This course is inspired by [Bor-Yuh Evan Chang](http://www.cs.colorado.edu/~bec/)'s fantastic Programming Languages course.
-Special thanks to Evan for his advice and assistance.
+Special thanks to Evan for his advice and assistance. It is heavily based on Jed McClurgh's offering from Fall 2021 (thanks, Jed!)
