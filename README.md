@@ -182,7 +182,7 @@ These are designed to help encourage you to keep up-to-date on the course materi
 You will have approximately **1-2 weeks** to work on each homework.
 
 - [Homework 1: Github username](https://elearning.mines.edu/courses/40213/quizzes/60029)
-- [Homework 2: Scala preliminaries](https://github.com/mines-csci400/f22-assignment-hw02)
+- [Homework 2: OCaml preliminaries](https://github.com/mines-csci400/f22-assignment-hw02)
 - [Homework 3: Lexing & Parsing](https://github.com/mines-csci400/f22-assignment-hw03)
 - [Homework 4: Structural induction](https://github.com/mines-csci400/f22-assignment-hw04)
 - [Homework 5: Big-step semantics](https://github.com/mines-csci400/f22-assignment-hw05)
