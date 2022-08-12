@@ -21,7 +21,7 @@ Section A: Amelia Read, Assistant Teaching Professor of CS
 Section B: Sumner Evans, Adjunct Instructor
 
 - Contact: me (at) sumner (dot) com (mines email will have a slow response)
-- Office Hours: TBD
+- Office Hours: 5pm-6pm Thu in TBD (or by arrangement)
 
 ## Teaching Assistants (TA)
 
