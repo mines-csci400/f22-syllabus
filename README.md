@@ -37,6 +37,10 @@ Jaren Peckham
 
 - Contact: jarenpeckham (at) mines (dot) edu
 
+Grant Rulon
+
+- Contact: grulon (at) mines (dot) edu
+
 Stephen Willson
 
 - Contact: swillson (at) mines (dot) edu
