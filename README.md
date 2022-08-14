@@ -84,14 +84,11 @@ This is a **difficult** class, for several reasons:
 
 ## Online Community and Communication
 
-We use [TBD](https:///) as the class online discussion forum for student questions and class communications.
+We use [Piazza](https://piazza.com/class/l5zw2ww48hw4m3/) as the class online discussion forum for student questions and class communications.
 This is a great way to ask questions and communicate with the instructors, teaching assistants,
 and your classmates. Participation in online discussions will factor into the Participation component of your grade. Dive in and answer a peer's questions - explaining to others is a great way to deepen your own understanding!
 
-The class TBD link is:
-[https://eddiscussion/class/TBD](https:///TBD)
-
-The instructors will use TBD to communicate with the class. If you have
+The instructors will use Piazza to communicate with the class. If you have
 questions about the course, you should first do a quick search of this syllabus and the class online discussion forum,
 to make sure your question has not already been answered. If not, please
 go ahead and post your question on the class online discussion forum so that the instructors, the TAs, or another student
